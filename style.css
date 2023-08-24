@@ -1,0 +1,97 @@
+body {
+    background-color: #393E46 ;
+}
+.head1 h1 {
+    color: orange;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    text-shadow: 0px 0px 100px orange;
+}
+.head {
+    animation-name: head;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+.container {
+    
+}
+@keyframes head {
+    0% {
+        text-shadow: 0px 0px 100px orange;
+    }
+    50% {
+        text-shadow: 0px 0px 20px orange;
+
+
+    }
+    100% {
+        text-shadow: 0px 0px 100px orange;
+
+
+    }
+   
+    
+}
+.img img {
+    margin-left: 25%;
+    height: 350px;
+    margin-top: 18px;
+    box-shadow: 0px 0px 100px 10px yellow;
+}
+.images {
+    animation-name: images;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes images {
+    0% {
+        box-shadow: 0px 0px 100px 10px yellow;
+    }
+    50% {
+        box-shadow: 0px 0px 20px 10px rgb(196, 96, 46);
+
+
+    }
+    100% {
+        box-shadow: 0px 0px 100px 10px yellow;
+
+
+    }
+    
+}
+.names h1 {
+    font-family: 'Indie Flower', cursive;
+    color: orange;  
+    text-align: center;
+    font-size: 58px;
+    margin-top: 0px;
+        
+
+}
+footer {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(255, 255, 0);  
+    text-align: center;
+    font-size: 20px;
+
+
+
+}
+#result {
+    color: greenyellow;
+    font-size: 80px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    text-shadow: 0px 0px 100px orange;
+
+
+} 
+#body {
+    background-size: 50%;
+    
+}
+
